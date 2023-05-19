@@ -4,30 +4,32 @@
 
 _MyFursona_ is an open source platform where users can manage their artworks, various types of media about their fursona. The project is still in the works, so a lot of breaking changes are bound to happen!
 
-## Note:
-Esta es una rebuild en laravel del repo original. Usa InertiaJS
 ## Contributing
+
+### Prerequisites
+
+- Node.js versions 16 or higher (LTS recommended)
+- Yarn package manager
+- (Optional) WSL/Git Bash
 
 ### Installation
 
-Clone this repo
+Fork and clone the repository
 
-```bash
-git clone https://github.com/ulf-frostypaw/MyFursona.git
+```console
+git clone https://github.com/MyFursona-Project/MyFursona.git
 ```
 
-Execute first 
-```bash
-composer install
+Install its dependencies
+```console
+yarn install
 ```
 
-And then
-```bash
-npm install && npm run dev
+To run the website; you can start a local dev server
+```console
+yarn dev:web
 ```
 
-## TODO LIST:
-* [ ]
 ## License
 
 MIT
